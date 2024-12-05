@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px;
+}
+
+.pricing-table {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.pricing-table h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.pricing-table .price {
+    font-size: 36px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.pricing-table .price span {
+    font-size: 18px;
+}
+
+.pricing-table ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pricing-table ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.pricing-table ul li i {
+    color: green;
+    margin-right: 10px;
+}
+
+.pricing-table ul li i.fa-times {
+    color: red;
+}
+
+.pricing-table button {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    box-shadow: 0 2px 8px orangere
+}
+
+@media (max-width: 600px) {
+    .pricing-table {
+        width: 100%;
+    }
+}
